@@ -155,7 +155,7 @@ def dict_merge(dic1,dic2,debug=False):
     return dic0  
  
 def get_timestamp(n=13,d=0):
-    '''计算参数rt,获取当前时间的时间戳  n总长度，d小数位'''
+    '''获取当前时间的时间戳  n总长度，d小数位'''
     now=dt.datetime.now()
     timestamp=now.timestamp()*1000#13位ms级
     strfmt='%%%d.%df'%(n,d)#'%13.0f'
