@@ -1,2 +1,4 @@
 # AddWhiteIPList_xfyun
 自动添加当前公网IP到讯飞AIUI平台webapi应用IP白名单
+使用讯飞在线语音识别服务时，需要将自己的ip加入白名单才可以使用服务，而自己没有固定的公网ip，每次ip变化后需要重新修改ip白名单。
+本项目采用requests模拟网页登录，修改白名单。
