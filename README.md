@@ -1,0 +1,2 @@
+# AddWhiteIPList_xfyun
+自动添加当前公网IP到讯飞AIUI平台webapi应用IP白名单
